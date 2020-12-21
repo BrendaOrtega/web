@@ -1,0 +1,133 @@
+.navbar{
+    width: 96%;
+    margin-left: 2%;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    box-sizing: border-box;
+    color:#414141 !important;
+    z-index: 999;
+    flex-wrap: wrap;
+}
+.navbar menu a{
+    text-transform: uppercase;
+
+}
+.navbar a {
+    color: inherit;
+    text-decoration: none !important;
+    font-weight: 500;
+    color: #000000;
+}
+
+.navbar a:hover{
+    color:#004AAD !important;
+}
+.navbar img{
+    height: 70px;
+}
+
+.menu h1{
+    font-size:24px;
+    margin-bottom: 0;
+}
+.fl{
+    display: flex;
+    align-items: center;
+}
+.division{
+    height: 50px;
+    width: 1px;
+    background-color: #ebebeb;
+    border: none;
+    margin: 0 0px 0 20px;
+}
+.pestanas p{
+    margin: 0 20px;
+}
+.redes a{
+    margin-left: 24px;
+
+}
+.redes span{
+    margin: 0 4px;
+}
+
+.pestanas p:hover {
+    color:#004AAD;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.redes span:hover{
+    color:#004AAD;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.navbar a{
+    color:inherit;
+}
+
+@media(max-width: 700px) {
+    .navbar .redes span{
+        display: none;
+    }
+    .navbar img{
+        width: 70px;
+        height: auto;
+    }
+    .navbar{
+        margin-top: 20px;
+    }
+
+}
+@media(max-width: 435px){
+    .navbar{
+        padding: 0% 3%;
+        justify-content: center;
+    }
+
+    .navbar img{
+        width: 50px;
+        height: auto;
+    }
+    .navbar{
+        margin-top: 20px;
+    }
+    .menu p{
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+}
+@media(max-width: 330px){
+    .navbar{
+        padding: 0% 1%;
+        justify-content: center;
+    }
+    .menu p{
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu img{
+        width: 25%;
+        text-align: center;
+    }
+    .menu hr{
+        display: none;
+    }
+    .navbar .fl{
+        display: flex;
+        justify-content: space-around;
+    }
+}

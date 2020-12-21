@@ -1,0 +1,87 @@
+.home-box{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.slider{
+    width: 100%;
+   height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.img1{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/IMG_20200615_222103.jpg?alt=media&token=6b40d294-82f8-4c42-831f-9a00399596ee");
+}
+.img2{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/Captura%20de%20Pantalla%202020-12-20%20a%20la(s)%2016.29.28.png?alt=media&token=a81944d1-6712-411f-8ebb-5853192d1f84");
+}
+.img3{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/IMG_20200425_230004.jpg?alt=media&token=20e6d35e-cc4b-45d8-b068-f3dcf68f1d45");
+}
+.img4{
+
+}
+
+h2{
+    font-size: 36px;
+    font-family: 'Open Sans',  sans-serif;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.text{
+    color:#666666;
+    font-size: 18px;
+}
+.products-box{
+    text-align: center;
+    width: 100%;
+    padding: 120px 20%;
+    box-sizing: border-box;
+}
+.flex-products{
+    display: flex;
+    justify-content: space-around;
+}
+.line{
+    width: 120px;
+    height: 3px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 48px;
+}
+.clients-box{
+    width: 100%;
+    height: auto;
+    padding: 60px 10%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.clients img{
+    width: 120px;
+    filter:grayscale(100%);
+    margin: 0 80px;
+    opacity: .8;
+}
+.blog-box{
+    width: 100%;
+    height: auto;
+    padding: 120px 10%;
+    text-align: center;
+}
+.flex-posts{
+    display: flex;
+    justify-content: space-around;
+}
