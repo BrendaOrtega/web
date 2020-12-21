@@ -101,6 +101,9 @@
         font-size: 12px;
         margin: 0 10px;
     }
+    .redes{
+        display: none;
+    }
 
 }
 @media(max-width: 330px){

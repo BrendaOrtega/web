@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import { Carousel } from 'antd';
 import {Card} from "./Common/Card"
 import {Post} from "./Common/Post";
+import Footer from "./Footer";
 
 function onChange(a, b, c) {
     console.log(a, b, c);
@@ -92,6 +93,7 @@ class HomePage extends Component {
                         />
                     </div>
                 </section>
+                <Footer/>
             </section>
         );
     }

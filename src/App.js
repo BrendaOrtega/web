@@ -9,7 +9,7 @@ class App extends Component {
         <div>
           <NavBar/>
           <Routes />
-            <Footer/>
+
         </div>
     )
   }

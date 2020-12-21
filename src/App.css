@@ -9,3 +9,9 @@
     width: 50%;
     opacity: .5;
 }
+@media(max-width: 435px){
+.under img{
+    width: 90%;
+}
+
+}
