@@ -34,11 +34,11 @@ class NavBar extends Component {
                     </div>
                 </div>
                 <div className="redes fl">
-                    <a href="mailto:contacto@prospikestinger.com" aria-label="Mail" rel="noopener noreferrer">
-                   <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  contacto@prospikestinger.com
+                    <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer">
+                   <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  info@technicsproduction.nl
                     </a>
-                    <a href="https://wa.me/5217757609276" aria-label="Whats app" target={"blank"} rel="noopener noreferrer">
-                       <span>  <FontAwesomeIcon icon={faWhatsapp} /> </span>   +52 555 55 55
+                    <a  aria-label="Whats app" target={"blank"} rel="noopener noreferrer">
+                       <span>  <FontAwesomeIcon icon={faWhatsapp} /> </span>   +31 40 303 3781
                     </a>
                 </div>
 
