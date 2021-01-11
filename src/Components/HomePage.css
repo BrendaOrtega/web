@@ -265,7 +265,7 @@ h2{
   
 }
 
-@media(max-width: 479px) {
+@media(max-width: 600px) {
     .products-box{
         padding: 80px 5%;
     }
