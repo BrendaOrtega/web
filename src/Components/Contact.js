@@ -20,10 +20,6 @@ class Contact extends Component {
                         name="description"
                         content=" Contact us"
                         />
-                        <meta
-                        name="keywords"
-                        content="spiker, production, laboratory, machine development"
-                        />
                         <title>Contact | Technics Production</title>
                 
                   <div className="">

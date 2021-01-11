@@ -19,13 +19,7 @@ class About extends Component {
                         name="keywords"
                         content="spiker, production, laboratory, machine development, history"
                         />
-                         <meta property="og:url"                content="https://technicsproduction.nl/" />
-                        <meta property="og:type"               content="website" />
-                        <meta property="og:title"              content="Technics Production BV" />
-                        <meta property="og:description"        content="Technics Production B.V. began as a consultancy and outsourcing company for ground" />
-                        <meta property="og:image"              content="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/Website-screen.png?alt=media&token=ccb6e98c-1c43-4ebd-be45-499c0a89b90f" />
-                        <meta name="Description" content="Technics Production B.V. began as a consultancy and outsourcing company for ground, water
-                            and road construction."/>
+                
                         <title>About us | Technics Production</title>
                 <div className="banner">
                 </div>
