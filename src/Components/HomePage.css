@@ -123,13 +123,13 @@ h2{
     font-size: 16px;
 }
 .company-img{
-    width: 600px;
+    width: 400px;
     height: 600px;
     flex-grow: 1;
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
 }
 .company-info{
-    width: 600px;
+    width: 400px;
     flex-grow: 1;
     margin-right: 80px;
 }
@@ -240,7 +240,11 @@ h2{
     width: 86%;
 }
 
-
+@media(max-width: 1200px) {
+.company-img, .company-info{
+    width: 40%;
+}
+}
 
 
 @media(max-width: 790px) {
@@ -254,16 +258,18 @@ h2{
         margin-top: 50px;
         padding: 0;
     }
+    .company-info{
+        margin-right: 0px;
+        margin-bottom: 48px;
+    }
+  
 }
 
 @media(max-width: 479px) {
     .products-box{
         padding: 80px 5%;
     }
-    .company-info{
-        margin-right: 0px;
-        margin-bottom: 48px;
-    }
+ 
     .company-img{
         height: 240px;
         background-position: center;

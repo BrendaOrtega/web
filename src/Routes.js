@@ -11,6 +11,7 @@ export const Router = () => (
         <Route exact path="/" component={HomePage} />
         <Route path="/about-us" component={About} />
         <Route path="/products" component={Products}/>
+        <Route path="/blog" component={Construction} />
         <Route path="/contact" component={Contact} />
     </Switch>
     )

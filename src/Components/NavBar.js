@@ -23,7 +23,7 @@ class NavBar extends Component {
                         <Link to="/products">
                             <p>Products</p>
                         </Link>
-                        <Link to="/">
+                        <Link to="/blog">
                             <p>Blog</p>
                         </Link>
 
