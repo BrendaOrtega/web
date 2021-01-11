@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './Footer.css';
 import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faMapMarked} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -22,19 +21,26 @@ class Footer extends Component {
                         <br/>
                         <h3>Contact</h3>
                         <br/>
-                        <a href="tel:+18475555555" aria-label="Whats app" target={"blank"} rel="noopener noreferrer">
-                            <span>  <FontAwesomeIcon icon={faPhone} /> </span>   +52 555 55 55
-                        </a>
-                        <br/>
-                        <br/>
-                        <a href="mailto:contacto@prospikestinger.com" aria-label="Mail" rel="noopener noreferrer">
-                            <span> <FontAwesomeIcon icon={faWhatsapp} />  </span> +52 555 55 55
+                 
+                        <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
+                            <span> <FontAwesomeIcon icon={faPhone} />  </span> +31 40 303 3781
                         </a>
 
                         <br/>
                         <br/>
-                        <a href="mailto:contacto@prospikestinger.com" aria-label="Mail" rel="noopener noreferrer">
-                            <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  contacto@prospikestinger.com
+                        <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer">
+                            <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  info@technicsproduction.nl
+
+                        </a>
+                        <br/>
+                        <br/>
+                        <a href="https://goo.gl/maps/Br5a2k8B1uYvoMSN8" target="_blank" aria-label="Mail" rel="noopener noreferrer">
+                            <span> <FontAwesomeIcon icon={faMapMarked} />  </span> 
+                            Technics Production B.V., T&P Campus <br/>
+                            <span> <FontAwesomeIcon style={{opacity:"0"}} icon={faMapMarked} />  </span> Urkhovenseweg 17<br/>
+                            <span> <FontAwesomeIcon style={{opacity:"0"}} icon={faMapMarked} />  </span>5641 KA Eindhoven<br/>
+                            <span> <FontAwesomeIcon style={{opacity:"0"}} icon={faMapMarked} />  </span> The Netherlands
+
                         </a>
 
                     </div>
@@ -44,7 +50,7 @@ class Footer extends Component {
                 <div className="copy">
 
 
-                <p>Copyright 2020 All Right Reserved</p>
+                <p>Copyright 2020 © All Right Reserved</p>
                 </div>
             </section>
         );

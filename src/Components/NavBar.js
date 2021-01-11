@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './NavBar.css';
 import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp,  } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -18,17 +17,17 @@ class NavBar extends Component {
                     </Link>
                     <hr className="division"/>
                     <div className="pestanas fl">
-                        <Link to="/">
-                            <p>About Technics & Production BV</p>
+                        <Link to="/about-us">
+                            <p>About Technics Production BV</p>
                         </Link>
-                        <Link to="/">
+                        <Link to="/products">
                             <p>Products</p>
                         </Link>
                         <Link to="/">
                             <p>Blog</p>
                         </Link>
 
-                        <Link to="/">
+                        <Link to="/contact">
                             <p>Contact</p>
                         </Link>
                     </div>
@@ -37,8 +36,8 @@ class NavBar extends Component {
                     <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer">
                    <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  info@technicsproduction.nl
                     </a>
-                    <a  aria-label="Whats app" target={"blank"} rel="noopener noreferrer">
-                       <span>  <FontAwesomeIcon icon={faWhatsapp} /> </span>   +31 40 303 3781
+                    <a href="tel:31403033781"  aria-label="Tel" rel="noopener noreferrer">
+                       <span>  <FontAwesomeIcon icon={faPhone} /> </span>   +31 40 303 3781
                     </a>
                 </div>
 

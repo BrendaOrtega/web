@@ -8,24 +8,41 @@
     width: 100%;
    height: 90vh;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    font-size: 24px;
+    color:#f2f2f2;
 }
 .cover{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
 }
 .img1{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/IMG_20200615_222103.jpg?alt=media&token=6b40d294-82f8-4c42-831f-9a00399596ee");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138091083_843957279496134_4362483215452978714_n.jpg?alt=media&token=06855f2e-a519-4b43-8ea5-a50ec43d97f7");
 }
 .img2{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/Captura%20de%20Pantalla%202020-12-20%20a%20la(s)%2016.29.28.png?alt=media&token=a81944d1-6712-411f-8ebb-5853192d1f84");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/137682662_839578409919809_2117718652031678050_n.jpg?alt=media&token=1e86fc73-1d84-4f78-a98e-7fc4aa3aa738");
 }
 .img3{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/IMG_20200425_230004.jpg?alt=media&token=20e6d35e-cc4b-45d8-b068-f3dcf68f1d45");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/136960038_123285852957550_4453093865334603805_n.jpg?alt=media&token=59efb295-5a13-4423-aa97-a038e0681f68");
 }
 .img4{
 
+}
+.slider h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 4px;
+    margin-top: 80px;
+}
+
+.slider p{
+    margin-top: 0px;
 }
 
 h2{
@@ -46,6 +63,7 @@ h2{
 }
 .flex-products{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .line{
@@ -83,5 +101,195 @@ h2{
 }
 .flex-posts{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+
+/* About */
+.banner{
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138266441_969971757180346_9033408708576530543_n.jpg?alt=media&token=4be4cf57-0b8e-493a-8b7a-7baf73e43078");
+}
+.container{
+    padding: 5% 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.company-img{
+    width: 600px;
+    height: 600px;
+    flex-grow: 1;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+.company-info{
+    width: 600px;
+    flex-grow: 1;
+    margin-right: 80px;
+}
+
+.company-info span{
+    text-decoration: underline;
+    color:#004AAD;
+    font-weight: 600;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+.contacto{
+    padding: 150px 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contacto iframe{
+
+    width: 600px;
+    height: 450px;
+}
+.contact{
+    width: 400px;
+    flex-grow: 1;
+    padding: 0 0 0 50px;
+    text-align: center;
+}
+.map{
+    width: 400px;
+    flex-grow: 1;
+}
+.contact input, .contact textarea{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.contact textarea{
+    height: 80px !important;
+}
+
+.contact input::placeholder, .contact textarea::placeholder{
+
+    opacity: .5;
+}
+.contact input:focus, .contact textarea:focus{
+
+    outline: 0;
+}
+.contact p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* PRODUCTS */
+.products{
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+.products-list{
+    width: 500px;
+    flex-grow: 1;
+}
+.product-card{
+    width: 86%;
+    padding: 10%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    margin:0px 0px 72px 0 ;
+}
+.product-img{
+    width: 80%;
+    margin: 0 auto;
+    height: 360px;
+}
+.uno{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138059368_400665257693290_5826332549832913250_n.jpg?alt=media&token=4d0d9f66-62ee-4448-b4fe-5530f346f071");
+    background-position: top;
+    background-size: cover;
+}
+.dos{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138748399_1034333337073618_7695116157726096146_n.jpg?alt=media&token=43b7efb0-984a-47a1-b729-35c6bacbbac0");
+    background-position: top;
+    background-size: cover;
+}
+.tres{
+    background: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138028174_704693463528396_5733506577261889889_n.jpg?alt=media&token=174d3d21-b37b-42c8-8c2d-0f26ba8817ed");
+    background-position: top;
+    background-size: cover;
+}
+.product-card h3{
+    font-size: 24px;
+}
+.mg{
+    width: 86%;
+}
+
+
+
+
+@media(max-width: 790px) {
+    .contacto{
+        padding: 80px 10% 50px 10%;
+    }
+    .contacto iframe{
+        width: 100%;
+    }
+    .contact{
+        margin-top: 50px;
+        padding: 0;
+    }
+}
+
+@media(max-width: 479px) {
+    .products-box{
+        padding: 80px 5%;
+    }
+    .company-info{
+        margin-right: 0px;
+        margin-bottom: 48px;
+    }
+    .company-img{
+        height: 240px;
+        background-position: center;
+    }
+    .product-card{
+        width: 100%;
+        font-size: 14px;
+    }
+    .product-img{
+        width: 100%;
+        height: 240px;
+    }
+    .mg{
+        width: 100%;
+    }
+    .clients img{
+        width: 40px;
+        margin: 16px;
+    }
+    .blog-box{
+        padding: 80px 5%;
+    }
+    .slider h2{
+        font-size: 36px;
+    }
+    .slider p{
+        font-size: 20px;
+    }
 }

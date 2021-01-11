@@ -6,7 +6,9 @@ export const Card = ({image, name, description}) => {
 
     return (
         <section className="card">
-            <img src={image} alt="image-product"/>
+            <div className="img_box">
+                <img src={image} alt="image-product"/>
+            </div>
             <div className="space">
                 <h3>{name}</h3>
                 <p>{description}</p>
