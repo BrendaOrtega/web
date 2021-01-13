@@ -23,9 +23,9 @@ class NavBar extends Component {
                         <Link to="/products">
                             <p>Products</p>
                         </Link>
-                        <Link to="/blog">
+                        {/* <Link to="/blog">
                             <p>Blog</p>
-                        </Link>
+                        </Link> */}
 
                         <Link to="/contact">
                             <p>Contact</p>

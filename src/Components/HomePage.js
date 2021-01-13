@@ -7,6 +7,7 @@ import {Post} from "./Common/Post";
 import Footer from "./Footer";
 import {Button} from "./Common/Button"
 
+
 function onChange(a, b, c) {
     console.log(a, b, c);
 }
@@ -78,19 +79,19 @@ class HomePage extends Component {
                     <br/>
                     <div className="flex-products">
                         <Card
-                         image="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138081765_2852502075076419_7973199817792376016_n.jpg?alt=media&token=411bd277-091d-44cf-b70e-5b2ea6b983bb"
+                         image="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/Production.png?alt=media&token=0c7fbde3-6797-4028-b076-b980ad37437c"
                          name="Mentorship"
                          description="What and how on hardware and software to bring your idea to fruition "
                         />
                         <Card
-                            image="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138058318_2731463860451020_1699365138474611813_n.jpg?alt=media&token=343c3900-7861-45c5-aed7-1a4289164479"
+                            image="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_163213.jpg?alt=media&token=3d6f09a9-a2ed-4cce-94aa-4053b4e7d7e6"
                             name="Production"
                             description="If you already have an existing and finished product, we can assemble it,
                                 manufacture it in pieces and/or mass-produce it for you"
                         />
                          <section className="card">
                             <div className="img_box">
-                                <img src="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138028174_704693463528396_5733506577261889889_n.jpg?alt=media&token=174d3d21-b37b-42c8-8c2d-0f26ba8817ed" alt="image-product"/>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201105_104004.jpg?alt=media&token=8dca9db9-c845-46e3-a712-73afa355cffd" alt="image-product"/>
                             </div>
                             <div className="space">
                                 <h3>T&P Campus</h3>
@@ -112,11 +113,36 @@ class HomePage extends Component {
                         <img src="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/1-removebg-preview.png?alt=media&token=242b1147-a5e4-4174-8e04-2df584874a2d" alt="partner "/>
                     </div>
                 </section>
-                <section className="blog-box">
-                    <h2>Blog</h2>
+                <section className="blog-box campus">
+                    <h2>Get to know T&P Campus</h2>
                     <hr className="line"/>
+                    <p>2020 came with different unexpected challenges, from a pandemic virus, to natural disasters.
+                    Technics Production B.V. took this as an opportunity to help those in need and created the T&P
+                    Campus. It is located in one of the most technologically driven cities in Europe, Eindhoven. It
+                    contributes to it, by hosting several small and medium size international organizations. Technics
+                    Production B.V. gives them all the necessary tools to establish and grow their projects.</p>
+                    <p> This technological hub has strived to become a sign of innovation across borders. Professionals
+                    from every industry and nationality come together in this campus to create, test and improve
+                    every single one of our products. Although it has not reached its goal yet, to become the most
+                    influential Tech Hub in the world, the T&P Campus is very well on its way to do it</p>
+                    <p>
+                    If you think your project or company should be in the T&P Campus,  <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer"> <span>send us an email </span> </a> with a
+                    brief description of it and contact info. We will get in touch with you as soon as possible.
+                    </p>
+                    <div className="box-images">
+                        <div className="company-img img-1"></div>
+                        <div className="company-img img-2"></div>
+                        <div className="company-img img-3"></div>
+                        <div className="company-img img-4"></div>
+                        <div className="company-img img-5"></div>
+                        <div className="company-img img-6"></div>
+                        <div className="company-img img-7"></div>
+                    </div>
+
                     <div className="flex-posts">
-                        <Post
+
+
+                        {/* <Post
                         image="https://stingerspike.com/images/blog/9868240640498-396-yol-kapani-nedir_2.jpg"
                         name="What use Stinger Spike?"
                         description="The Stinger Spike System is a tire deflation device used in stopping high-speed pursuits. ... When the vehicle runs over the Stinger Spike System, sharp hollow spikes penetrate and remain in one or more tires. Air passes through the spikes for a controlled tire deflation."
@@ -131,7 +157,7 @@ class HomePage extends Component {
                             image="https://stingerspike.com/images/blog/9868240640498-396-yol-kapani-nedir_2.jpg"
                             name="What use Stinger Spike?"
                             description="The Stinger Spike System is a tire deflation device used in stopping high-speed pursuits. ... When the vehicle runs over the Stinger Spike System, sharp hollow spikes penetrate and remain in one or more tires. Air passes through the spikes for a controlled tire deflation."
-                        />
+                        /> */}
                     </div>
                 </section>
             </section>

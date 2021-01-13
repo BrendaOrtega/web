@@ -43,7 +43,7 @@ class About extends Component {
                             <br/>
                             <Button text="Contact"/>
                         </div>
-                        <div className="company-img" style={{background:`url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/138266441_969971757180346_9033408708576530543_n.jpg?alt=media&token=4be4cf57-0b8e-493a-8b7a-7baf73e43078")`}}>
+                        <div className="company-image" >
                         </div>
                 </div>
             </section>
