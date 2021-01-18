@@ -132,7 +132,9 @@ class HomePage extends Component {
                             </p>
                             <br/>
                             <br/>
-                            <Button text="Contact us"/>
+                            <Link to="/contact">
+                                <Button text="Contact us"/> 
+                            </Link>
                         </div>
                         <div className="company-image" >
                         </div>
