@@ -23,29 +23,32 @@ class About extends Component {
                         <title>About us | Technics Production</title>
                 <div className="banner">
                 </div>
-                <div className="container">
-                        <div className="company-info">
-                            <h2>About Technics Production BV</h2>
-                            <p>Technics Production B.V. began as a consultancy and outsourcing company for ground, water
-                            and road construction. It always leaned towards electronic solutions for these fields, to the point
-                            that it ventured in unimaginable areas (from traffic control, to equipment tracking, among several
-                            others). Just as unimaginable was the success it had, when providing unconventional but highly
-                            efficient solutions.
-                            </p>
-                            <p>Nowadays, Technics Production B.V. helps you grow the potential of your ideas, by developing
-                            a whole ecosystem (software and hardware) around them. It does not matter which industry you
-                            need it for, we go from mobile applications to high-end mechanics/electronics. We specialized in
-                            transforming ideas into realities. The wildest the dream, the better the challenge. Let us make
-                            your wishes come true. Tell us what you wish, and we will take care of how to do it.
-                            Do you want to get started, <a href="https://calendly.com/spikestinger/15min?month=2021-01" target="_blank" rel="noopener noreferrer"> <span>click here</span> </a> and we will get in touch with you as soon as possible.
-                            </p>
-                            <br/>
-                            <br/>
-                            <Button text="Contact"/>
-                        </div>
-                        <div className="company-image" >
-                        </div>
-                </div>
+                <section className="blog-box campus">
+                    <h2>Get to know T&P Campus</h2>
+                    <hr className="line"/>
+                    <p>2020 came with different unexpected challenges, from a pandemic virus, to natural disasters.
+                    Technics Production B.V. took this as an opportunity to help those in need and created the T&P
+                    Campus. It is located in one of the most technologically driven cities in Europe, Eindhoven. It
+                    contributes to it, by hosting several small and medium size international organizations. Technics
+                    Production B.V. gives them all the necessary tools to establish and grow their projects.</p>
+                    <p> This technological hub has strived to become a sign of innovation across borders. Professionals
+                    from every industry and nationality come together in this campus to create, test and improve
+                    every single one of our products. Although it has not reached its goal yet, to become the most
+                    influential Tech Hub in the world, the T&P Campus is very well on its way to do it</p>
+                    <p>
+                    If you think your project or company should be in the T&P Campus,  <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer"> <span>send us an email </span> </a> with a
+                    brief description of it and contact info. We will get in touch with you as soon as possible.
+                    </p>
+                    <div className="box-images">
+                        <div className="company-img img-1"></div>
+                        <div className="company-img img-2"></div>
+                        <div className="company-img img-3"></div>
+                        <div className="company-img img-4"></div>
+                        <div className="company-img img-5"></div>
+                        <div className="company-img img-6"></div>
+                        <div className="company-img img-7"></div>
+                    </div>
+                </section>
             </section>
         );
     }

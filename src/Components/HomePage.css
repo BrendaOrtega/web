@@ -20,13 +20,14 @@
     align-items: center;
     padding: 0 5%;
 }
-.img1{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201105_105139.jpg?alt=media&token=47f1aed5-e7f5-401f-86a0-556174cdd372");
+.img3{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_162708%20(1).jpg?alt=media&token=db54cc39-4ac6-4072-add7-2b85a8989c47");
+    background-position: center;
 }
 .img2{
     background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201009_142835.jpg?alt=media&token=83886068-ef2e-4734-9dad-c87c9a63d5f7");
 }
-.img3{
+.img1{
     background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_161944.jpg?alt=media&token=de55ad0d-c3ce-4fa0-a452-686abe186bbe");
 }
 .img4{

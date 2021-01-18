@@ -18,7 +18,7 @@ class NavBar extends Component {
                     <hr className="division"/>
                     <div className="pestanas fl">
                         <Link to="/about-us">
-                            <p>About Technics Production BV</p>
+                            <p>T&P Campus</p>
                         </Link>
                         <Link to="/products">
                             <p>Products</p>
