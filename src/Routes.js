@@ -8,8 +8,10 @@ import Products from './Components/Products';
 
 export const Router = () => (
     <Switch>
+        <Redirect exact path="/" to="/technics-production"  />
+        <Route path="/technics-production" component={HomePage} />
         <Route exact path="/" component={HomePage} />
-        <Route path="/about-us" component={About} />
+        <Route path="/T&P-campus" component={About} />
         <Route path="/products" component={Products}/>
         <Route path="/blog" component={Construction} />
         <Route path="/contact" component={Contact} />
