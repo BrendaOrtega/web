@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
-
-
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import logo from "../assets/logo.png"
 
 class NavBar extends Component {
 
@@ -12,11 +11,14 @@ class NavBar extends Component {
         return (
             <section className="navbar">
                 <div className="menu fl">
-                    <Link to="/" >
-                        <img src="https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/1-removebg-preview.png?alt=media&token=242b1147-a5e4-4174-8e04-2df584874a2d" alt="logo"/>
+                    <Link to="/technics-production" >
+                        <img src={logo} alt="logo" />
                     </Link>
-                    <hr className="division"/>
+                    <hr className="division" />
                     <div className="pestanas fl">
+                        <Link to="/">
+                            <p>Home</p>
+                        </Link>
                         <Link to="/T&P-campus">
                             <p>T&P Campus</p>
                         </Link>
@@ -34,10 +36,10 @@ class NavBar extends Component {
                 </div>
                 <div className="redes fl">
                     <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer">
-                   <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  info@technicsproduction.nl
+                        <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  info@technicsproduction.nl
                     </a>
-                    <a href="tel:31403033781"  aria-label="Tel" rel="noopener noreferrer">
-                       <span>  <FontAwesomeIcon icon={faPhone} /> </span>   +31 40 303 3781
+                    <a href="tel:31403033781" aria-label="Tel" rel="noopener noreferrer">
+                        <span>  <FontAwesomeIcon icon={faPhone} /> </span>   +31 40 303 3781
                     </a>
                 </div>
 
