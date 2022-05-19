@@ -6,7 +6,7 @@ import { Card } from "./Common/Card"
 import { Button } from "./Common/Button"
 import logo from "../assets/logo.png"
 import image from "../assets/20201105_105139.jpg"
-import image2 from "../assets/20201208_161944.jpg"
+import image2 from "../assets/maquinas.jpg"
 import image3 from "../assets/car.png"
 import Fade from 'react-reveal/Fade';
 

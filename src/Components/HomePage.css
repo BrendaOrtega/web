@@ -126,7 +126,7 @@ h2 {
     height: 160px;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/holanda.jpg");
+    background-image: url("../assets/Holanda2.png");
 }
 
 .container {
@@ -144,7 +144,7 @@ h2 {
     flex-grow: 1;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
     background-position: left;
-    background-image: url("../assets/holanda.jpg");
+    background-image: url("../assets/Holanda2.png");
     background-size: cover;
 }
 
