@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
-.under{
+.under {
     text-align: center;
     padding: 100px;
 }
 
-.under img{
+.under img {
     width: 50%;
     opacity: .5;
 }
-@media(max-width: 435px){
-.under img{
-    width: 90%;
-}
+
+@media(max-width: 435px) {
+    .under img {
+        width: 90%;
+    }
 
 }

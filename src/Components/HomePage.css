@@ -4,6 +4,198 @@
     overflow: hidden;
 }
 
+.welcome {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/20201105_105139.jpg');
+
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    font-family: 'Lato', sans-serif;
+    padding-right: 30%;
+}
+
+
+.title {
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.slogan {
+    font-size: 32px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    /* background-color: #313f7b; */
+    background-color: #c5d645;
+    height: 48px;
+    border: none;
+    width: 140px;
+    color: #0D0D0D;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.circles {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+    margin-top: -24px;
+    margin-bottom: 48px;
+}
+
+.circles div {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #313f7b;
+}
+
+
+.products-box {
+    text-align: center;
+    width: 100%;
+    padding: 120px 20% 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.txt {
+    font-size: 18px;
+}
+
+/* 
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #c5d645;
+} */
+
+.flex-products {
+    display: flex;
+
+    justify-content: center;
+    gap: 40px;
+    padding: 64px 0;
+}
+
+.content {
+    padding: 0 10%;
+    font-family: 'Lato', sans-serif;
+    margin: 160px 0;
+}
+
+.container-banner {
+    padding: 0 10%;
+    margin-bottom: 120px;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    border-radius: 24px;
+    height: 260px;
+    color: white;
+    font-size: 18px;
+    background-size: cover;
+    background-position: center;
+    background-color: #0D0D0D;
+    background-image: url("../assets/20201105_105139.jpg");
+}
+
+.back {
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.banner h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.container-contact {
+    padding: 0 10%;
+}
+
+.contact input {}
+
+
+
+.about-container {
+    display: flex;
+    margin-top: 64px;
+}
+
+.about-container img {
+    width: 40%;
+    height: 500px;
+
+}
+
+.about-container div {
+    width: 60%;
+    padding: 0 0 0 10%;
+    font-size: 18px;
+}
+
+.info {
+    background-color: rgba(231, 238, 249, .4);
+    text-align: center;
+    border-radius: 24px;
+    padding: 80px 64px;
+}
+
+.product-card h3 {
+    font-weight: bold;
+}
+
+.product-card img {
+    width: 70px;
+}
+
+.box-p {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+/* 
+
 .slider {
     width: 100%;
     height: 100vh;
@@ -117,86 +309,33 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+} */
 
 
 /* About */
-.banner {
-    width: 100%;
-    height: 160px;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../assets/Holanda2.png");
-}
 
-.container {
-    padding: 5% 10%;
-    box-sizing: border-box;
+.container-contact {
+    padding: 0 10%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-size: 16px;
-}
-
-.company-image {
-    width: 400px;
-    height: 600px;
-    flex-grow: 1;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
-    background-position: left;
-    background-image: url("../assets/Holanda2.png");
-    background-size: cover;
-}
-
-.company-info {
-    width: 400px;
-    flex-grow: 1;
-    margin-right: 80px;
-}
-
-.company-info span {
-    text-decoration: underline;
-    color: #004AAD;
-    font-weight: 600;
-}
-
-.contact-form {
-    width: 100%;
-}
-
-.contacto {
-    padding: 150px 10%;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.contacto iframe {
-
-    width: 600px;
-    height: 450px;
+    margin: 160px 0;
 }
 
 .contact {
-    width: 400px;
+    width: 300px;
     flex-grow: 1;
-    padding: 0 0 0 50px;
-    text-align: center;
+    flex-grow: 1;
+    text-align: left !important;
 }
 
-.map {
-    width: 400px;
-    flex-grow: 1;
-}
 
 .contact input,
 .contact textarea {
     width: 100%;
-    height: 40px;
+    height: 48px;
     border: 1px solid #e5e5e5;
     margin: 10px 0;
     padding-left: 10px;
+    border-radius: 16px;
 }
 
 .contact textarea {
@@ -215,11 +354,67 @@ h2 {
     outline: 0;
 }
 
-.contact p {
-    font-size: 16px;
-    text-align: center;
+.line1 {
+    display: flex;
+    gap: 16px;
 }
 
+.boxline {
+    flex-grow: 1;
+    width: 190px;
+
+}
+
+.collage {
+    width: 300px;
+    flex-grow: 1;
+    padding: 0 0 0 5%;
+}
+
+.img1 {
+    flex-grow: 2;
+    width: 400px;
+    height: 320px;
+    background-color: red;
+}
+
+.img2 {
+    width: 100%;
+    height: 155px;
+    background-color: pink;
+}
+
+.img3 {
+    width: 100%;
+    height: 155px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.line2 {
+    display: flex;
+    gap: 16px;
+    height: 200px;
+    margin-top: 16px;
+}
+
+.img4 {
+    width: 33.33%;
+    background-color: pink;
+    height: 100%;
+}
+
+.img5 {
+    width: 33.33%;
+    background-color: pink;
+    height: 100%;
+}
+
+.img6 {
+    width: 33.33%;
+    background-color: pink;
+    height: 100%;
+}
 
 /* PRODUCTS */
 .products {
@@ -348,20 +543,38 @@ h2 {
 } */
 
 .campus {
-    font-size: 16px;
+    padding: 160px 10% 120px;
+    font-size: 18px;
+    display: flex;
+
 }
 
 .campus span {
     font-weight: bold;
-    color: #004AAD;
+    color: #313f7b;
+}
+
+.about-text {
+    width: 400px;
+    flex-grow: 1;
 }
 
 .box-images {
-    width: 90%;
-    margin: 48px auto;
+    width: 400px;
+    flex-grow: 1;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 64px;
+    gap: 16px;
+}
+
+.box-images div:nth-child(2) {
+    margin-top: 40px;
+}
+
+.box-images div:nth-child(5) {
+    margin-top: 40px;
 }
 
 .company-img {
@@ -374,45 +587,50 @@ h2 {
 
 
 .img-1 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201105_104904.jpg?alt=media&token=c7baa293-6c67-418d-b057-e7c6dbfcb74f");
-    width: 300px;
+    background-image: url("../assets/20201105_105139.jpg");
+    width: 160px;
     flex-grow: 1;
+    border-radius: 16px;
 }
 
 .img-2 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_161944.jpg?alt=media&token=de55ad0d-c3ce-4fa0-a452-686abe186bbe");
-    width: 500px;
-    flex-grow: 3;
+    background-image: url("../assets/20201105_105139.jpg");
+    width: 160px;
+    flex-grow: 1;
+    border-radius: 16px;
+
 }
 
 .img-3 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201009_142851.jpg?alt=media&token=f1992340-d660-4aa0-a4a0-89ac1fed65c2");
-    width: 300px;
+    background-image: url("../assets/20201105_105139.jpg");
+    width: 160px;
     flex-grow: 1;
+    border-radius: 16px;
+
 }
 
 .img-4 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_162708%20(1).jpg?alt=media&token=db54cc39-4ac6-4072-add7-2b85a8989c47");
-    width: 200px;
+    background-image: url("../assets/20201105_105139.jpg");
+    width: 160px;
     flex-grow: 1;
+    border-radius: 16px;
+
 }
 
 .img-5 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_162255.jpg?alt=media&token=2e26092c-f331-4974-abb3-5bf9d7a0db98");
-    width: 200px;
+    background-image: url("../assets/20201105_105139.jpg");
+    width: 160px;
     flex-grow: 1;
+    border-radius: 16px;
+
 }
 
 .img-6 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_162136.jpg?alt=media&token=320134e1-02b8-4888-9542-a45ac1509002");
-    width: 200px;
+    background-image: url("../assets/20201105_105139.jpg");
+    width: 160px;
     flex-grow: 1;
-}
+    border-radius: 16px;
 
-.img-7 {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f1dcc.appspot.com/o/20201208_162027.jpg?alt=media&token=e76ab883-8b5f-4edb-8aef-abcff080a16b");
-    width: 200px;
-    flex-grow: 1;
 }
 
 

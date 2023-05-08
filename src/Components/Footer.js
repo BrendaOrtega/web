@@ -3,7 +3,7 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faMapMarked } from '@fortawesome/free-solid-svg-icons'
-import logo from "../assets/logo.png"
+import logo from "../assets/tecned_color.svg"
 
 
 
@@ -15,10 +15,22 @@ class Footer extends Component {
                 <div className="footer-box">
                     <div>
                         <img src={logo} alt="logo" />
-                        <p>Technics & Production BV's total delivery program includes a wide variety of products including a tracker, a remote control nail box, a pinch valve, etc. Technics & Production BV's total delivery program includes a wide variety of products including a tracker, a remote control nail box, a pinch valve, etc.</p>
+                        {/* <p>Technics & Production BV's total delivery program includes a wide variety of products including a tracker, a remote control nail box, a pinch valve, etc. Technics & Production BV's total delivery program includes a wide variety of products including a tracker, a remote control nail box, a pinch valve, etc.</p> */}
                     </div>
                     <div>
                         <br />
+                        <h3>Tecned</h3>
+                        <br />
+                        <Link to='/about'>
+                            About
+                        </Link>
+                        <br />
+                        <br />
+                        <Link to='/products'>
+                            Products
+                        </Link>
+                    </div>
+                    <div>
                         <br />
                         <h3>Contact</h3>
                         <br />

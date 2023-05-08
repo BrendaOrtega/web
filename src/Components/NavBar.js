@@ -1,51 +1,94 @@
-import React, { Component } from 'react';
+import React, { useState, Component } from "react";
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
-import logo from "../assets/logo.png"
+import { faEnvelope, faPhone, faMapMarked, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import logo from "../assets/logo-tecned.svg"
+import logow from "../assets/tecned-white.svg"
 
-class NavBar extends Component {
 
-    render() {
-        return (
-            <section className="navbar">
-                <div className="menu fl">
-                    <Link to="/technics-production" >
-                        <img src={logo} alt="logo" />
-                    </Link>
-                    <hr className="division" />
-                    <div className="pestanas fl">
-                        <Link to="/">
-                            <p>Home</p>
-                        </Link>
-                        <Link to="/T&P-campus">
-                            <p>T&P Campus</p>
-                        </Link>
-                        <Link to="/products">
-                            <p>Products</p>
-                        </Link>
-                        {/* <Link to="/blog">
-                            <p>Blog</p>
-                        </Link> */}
+const NavBar = () => {
+    let [toggle, setToggle] = useState(false);
 
-                        <Link to="/contact">
-                            <p>Contact</p>
-                        </Link>
-                    </div>
-                </div>
-                <div className="redes fl">
-                    <a href="mailto:info@technicsproduction.nl" aria-label="Mail" rel="noopener noreferrer">
-                        <span> <FontAwesomeIcon icon={faEnvelope} />  </span>  info@technicsproduction.nl
-                    </a>
-                    <a href="tel:31403033781" aria-label="Tel" rel="noopener noreferrer">
-                        <span>  <FontAwesomeIcon icon={faPhone} /> </span>   +31 40 303 3781
-                    </a>
-                </div>
+    window.onscroll = (e) => {
+        window.requestAnimationFrame(function () {
+            if (window.scrollY > 100) {
+                setToggle(true);
+            } else {
+                setToggle(false);
+            }
+        });
+    };
+    return (
+        <section className="navbar"
+            style={
+                toggle
+                    ? {
+                        transition: "all .3s",
+                        background: "white",
+                        color: 'black',
+                        margin: 0,
+                        width: "100%",
+                        padding: "0 5%",
+                        borderBottom: "1px solid #f2f2f2"
 
-            </section>
-        );
-    }
+                    }
+                    : { transition: "all .3s" }
+            }>
+
+            <Link to="/tecned" >
+                <img style={
+                    toggle
+                        ? {
+                            display: 'inline',
+                        }
+                        : { transition: "all .3s" }
+                } className="none" src={logo} alt="logo" />
+                <img style={
+                    toggle
+                        ? {
+                            display: 'none',
+                        }
+                        : { transition: "all .3s" }
+                } src={logow} alt="logo" />
+            </Link>
+            <div className="pestanas fl">
+                <Link to="/">
+                    <p
+                        style={
+                            toggle
+                                ? {
+                                    color: '#0D0D0D',
+                                }
+                                : { transition: "all .3s" }
+                        }
+                    >Home</p>
+                </Link>
+                <Link to="/T&P-campus">
+                    <p style={
+                        toggle
+                            ? {
+                                color: '#0D0D0D',
+                            }
+                            : { transition: "all .3s" }
+                    }>About</p>
+                </Link>
+                <Link to="/products">
+                    <p style={
+                        toggle
+                            ? {
+                                color: '#0D0D0D',
+                            }
+                            : { transition: "all .3s" }
+                    }><span style={{ marginRight: '4px' }}>Products</span>  <FontAwesomeIcon icon={faChevronDown} /></p>
+
+                </Link>
+            </div>
+
+
+        </section>
+    );
+
 }
 
-export default NavBar;
+export default NavBar
