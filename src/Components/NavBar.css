@@ -29,6 +29,7 @@
     font-size: 16px;
     z-index: 1;
     border-bottom: 1px solid #f2f2f2;
+    background-color: white;
 
 }
 
@@ -58,7 +59,7 @@
     color: #c5d645 !important;
 }
 
-.navbar img,
+.logo,
 .navbar2 img {
     height: 32px;
 }
@@ -88,19 +89,112 @@
     color: inherit;
 }
 
+.ptab-products {
+    position: relative;
+}
+
+.menuD {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.drop {
+    min-width: 200px;
+    display: flex;
+    padding: 16px 0;
+    background-color: white;
+    border-radius: 8px;
+    color: #0D0D0D;
+    position: absolute;
+    top: 56px;
+    flex-direction: column;
+    display: none;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 4px 8px 0px rgba(204, 204, 204, 0.25);
+}
+
+.menuD:hover .drop {
+    display: block;
+}
+
+.drop p {
+    flex-grow: 1;
+    padding: 4px 16px !important;
+    margin: 0px;
+}
+
+.drop p:hover {
+    background-color: rgba(197, 214, 69, .3);
+    color: #0D0D0D !important;
+
+}
+
+.btn-secondary {
+    border-radius: 4px;
+    /* background-color: #313f7b; */
+    background-color: #c5d645;
+    height: 40px;
+    border: none;
+    width: 120px;
+    color: #0D0D0D;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mobile {
+    display: none;
+}
+
+.menuIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.menuMobile {
+    position: relative;
+    left: 0px;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    z-index: 9;
+    padding: 32px 24px;
+    display: none;
+}
+
+.mobileTabs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 64px;
+
+
+}
+
+.mobileLogo {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileTabs a {
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px dashed rgba(217, 217, 217, .4);
+}
+
 @media(max-width: 800px) {
     .navbar .redes span {
         display: none;
     }
 
-    .navbar img {
-        width: 70px;
+    .logo {
+        width: 120px;
         height: auto;
     }
 
-    .navbar {
-        margin-top: 20px;
-    }
 
     .redes {
         display: none;
@@ -111,23 +205,27 @@
 @media(max-width: 600px) {
     .navbar {
         padding: 0% 3%;
-        justify-content: center;
+
     }
 
-    .navbar img {
-        width: 50px;
+    .logo {
+        width: 120px;
         height: auto;
     }
 
-    .navbar {
-        margin-top: 20px;
-    }
 
     .menu p {
         font-size: 12px;
         margin: 0 10px;
     }
 
+    .mobile {
+        display: inline;
+    }
+
+    .web {
+        display: none;
+    }
 
 }
 
@@ -149,10 +247,11 @@
         text-align: center;
     }
 
+    /* 
     .menu img {
         width: 25%;
         text-align: center;
-    }
+    } */
 
     .menu hr {
         display: none;

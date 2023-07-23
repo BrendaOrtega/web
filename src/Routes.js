@@ -5,12 +5,13 @@ import { Construction } from "./Components/Construction";
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Products from './Components/Products';
+import Spike from './Components/products/Spike';
 
 export const Router = () => (
     <Switch>
         <Redirect exact path="/" to="/tecned" />
         <Route path="/tecned" component={HomePage} />
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/spike" component={Spike} />
         <Route path="/T&P-campus" component={About} />
         <Route path="/products" component={Products} />
         <Route path="/blog" component={Construction} />

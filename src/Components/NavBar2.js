@@ -48,10 +48,32 @@ const NavBar2 = () => {
                 <Link to="/T&P-campus">
                     <p >About</p>
                 </Link>
-                <Link to="/products">
-                    <p ><span style={{ marginRight: '4px' }}>Products</span>  <FontAwesomeIcon icon={faChevronDown} /></p>
+                <div className="menuD">
+                    <p className="tab-products" style={
+                        toggle
+                            ? {
+                                color: '#0D0D0D',
+                            }
+                            : { transition: "all .3s" }
+                    }>
 
-                </Link>
+                        <span style={{ marginRight: '4px' }}>Products</span>  <FontAwesomeIcon icon={faChevronDown} /></p>
+                    <div className="drop">
+                        {/* <span>Chimera XR</span>
+                        <span>Horus</span>
+                        <span>PPSS</span>
+                        <span>SlashPRO</span> */}
+                        <Link to="/spike">
+                            <p>Spike Stinger</p>
+                        </Link>
+                        {/* <span>Bleeb GPS transmitter®</span>
+                        <span>Catch systems</span>
+                        <span>Technocod</span> */}
+                    </div>
+                </div>
+                <a href="tel:31403033781" aria-label="tel" rel="noopener noreferrer">
+                    <button className='btn-secondary'>Call us</button>
+                </a>
             </div>
 
 

@@ -40,7 +40,7 @@
 
 .card span {
     font-weight: bolder;
-    color: #FFA54D;
+    color: #1E4B8A;
 }
 
 .card:hover {
@@ -94,9 +94,7 @@
 
 
 @media(max-width: 479px) {
-    .card {
-        margin-bottom: 24px;
-    }
+
 
     .post {
         margin-bottom: 48px;

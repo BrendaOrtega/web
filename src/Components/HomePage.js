@@ -57,7 +57,7 @@ class HomePage extends Component {
                             <div></div>
                             <div></div>
                         </div>
-                        <p className='txt'><strong>Technics Production BV </strong> develops everything in the field of applications and use of high-tech electronics. Thanks to the accumulated know-how, we are already playing a decisive role in the early stages of a development project.
+                        <p className='txt'><strong>Tecned </strong> develops everything in the field of applications and use of high-tech electronics. Thanks to the accumulated know-how, we are already playing a decisive role in the early stages of a development project.
                             We have this function not only with regard to new products, but also for the improvement and adaptation of existing products.</p>
                     </Fade>
                     <Fade bottom>

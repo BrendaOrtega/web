@@ -1,0 +1,197 @@
+.spike {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-22.jpg?alt=media&token=becf6588-8959-48ee-af9d-537c5656dff3");
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    font-family: 'Lato', sans-serif;
+    padding-right: 30%;
+    font-size: 32px;
+    color: white;
+    font-weight: 300;
+}
+
+.cover h3 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.btnWhite {
+    background-color: white;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #0D0D0D;
+}
+
+.btnGhost {
+    background-color: transparent;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: white;
+
+}
+
+.spike-container {
+    display: flex;
+    margin-top: 64px;
+}
+
+.spike-container img {
+    width: 40%;
+    height: 500px;
+
+}
+
+
+
+.spike-container div {
+    width: 60%;
+    padding: 0 10% 0 0%;
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    gap: 48px;
+    margin-top: 64px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.box img {
+    width: 54px;
+}
+
+.box div {
+    width: 300px;
+    flex-grow: 1;
+}
+
+.benefits {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 64px;
+    border-radius: 24px;
+    background-color: rgba(231, 238, 249, .4);
+}
+
+.keyBox {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 64px 10%;
+}
+
+.spikeImage {
+    height: auto;
+}
+
+.left {
+    text-align: right;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.right {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+}
+
+
+
+.feature img {
+    width: 40px;
+}
+
+.btnBlue {
+    height: 40px;
+    background-color: #1E4B8A;
+    border: none;
+    padding: 0 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+@media (max-width:550px) {
+
+    .spike-container {
+        flex-wrap: wrap;
+    }
+
+    .spike-container img {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    .spike-container div {
+        width: 100%;
+    }
+
+    .header {
+        font-size: 32px;
+
+    }
+
+    .circles {
+        margin-top: 16px;
+    }
+
+    .content {
+        margin: 80px 0;
+    }
+
+    .benefits {
+        padding: 80px 32px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 32px 0%;
+    }
+
+    .left,
+    .right {
+        text-align: center;
+        gap: 16px;
+    }
+
+    .spikeImage {
+        width: 80%;
+        margin: 32px auto;
+
+    }
+}

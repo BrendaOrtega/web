@@ -9,7 +9,8 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/20201105_105139.jpg');
+    background-color: #0D0D0D;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-1.jpg?alt=media&token=f6d200a9-1991-45fa-a985-ef22142c8523');
 
 }
 
@@ -91,11 +92,7 @@
     font-size: 18px;
 }
 
-/* 
-.underline {
-    text-decoration: underline;
-    text-decoration-color: #c5d645;
-} */
+
 
 .flex-products {
     display: flex;
@@ -152,8 +149,6 @@
     padding: 0 10%;
 }
 
-.contact input {}
-
 
 
 .about-container {
@@ -166,6 +161,7 @@
     height: 500px;
 
 }
+
 
 .about-container div {
     width: 60%;
@@ -194,130 +190,13 @@
     margin-top: 80px;
 }
 
-/* 
-
-.slider {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: bottom;
-    font-size: 24px;
-    color: #f2f2f2;
-}
-
-.cover {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
-    display: flex;
-    align-items: center;
-    padding: 0 5%;
-}
-
-.img3 {
-    background-image: url("../assets/20201208_161944.jpg");
-    background-position: center;
-}
-
-.img2 {
-    background-image: url("../assets/20201208_161944.jpg");
-}
-
-.img1 {
-    background-image: url("../assets/20201105_105139.jpg");
-}
-
-.img4 {}
-
-.slider h2 {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 48px;
-    margin-bottom: 4px;
-    margin-top: 80px;
-}
-
-.slider p {
-    margin-top: 0px;
-}
-
-h2 {
-    font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    margin-bottom: 0px;
-}
-
-.text {
-    color: #666666;
-    font-size: 18px;
-}
-
-.products-box {
-    text-align: center;
-    width: 100%;
-    padding: 120px 20%;
-    box-sizing: border-box;
-}
-
-.flex-products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.line {
-    width: 120px;
-    height: 3px;
-    border: none;
-    border-radius: 2px;
-    background-color: white;
-    margin-bottom: 48px;
-}
-
-.clients-box {
-    width: 100%;
-    height: auto;
-    padding: 60px 10%;
-    background-color: #f2f2f2;
-    text-align: center;
-}
-
-.clients {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.clients img {
-    width: 120px;
-    filter: grayscale(100%);
-    margin: 0 80px;
-    opacity: .8;
-}
-
-.blog-box {
-    width: 100%;
-    height: auto;
-    padding: 120px 10%;
-    text-align: center;
-}
-
-.flex-posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} */
-
 
 /* About */
 
 .container-contact {
-    padding: 0 10%;
+    padding: 160px 10%;
     display: flex;
-    margin: 160px 0;
+    align-items: flex-start;
 }
 
 .contact {
@@ -376,19 +255,27 @@ h2 {
     width: 400px;
     height: 320px;
     background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-16.jpg?alt=media&token=229d2425-9d2c-4d92-9b2b-03e8d5b9ea6d");
 }
 
 .img2 {
     width: 100%;
     height: 155px;
-    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-92%20(1).jpg?alt=media&token=f92e1b1b-d257-4fd7-8933-c74bb1d571e5");
 }
 
 .img3 {
     width: 100%;
     height: 155px;
     margin-top: 10px;
-    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-22.jpg?alt=media&token=becf6588-8959-48ee-af9d-537c5656dff3");
+
 }
 
 .line2 {
@@ -396,24 +283,45 @@ h2 {
     gap: 16px;
     height: 200px;
     margin-top: 16px;
+
 }
 
 .img4 {
     width: 33.33%;
-    background-color: pink;
+    background-size: cover;
+    background-position: top;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-4%20(1).jpg?alt=media&token=f5cdc29b-ff72-434f-8cce-b47e97283770");
+
     height: 100%;
 }
 
 .img5 {
     width: 33.33%;
-    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-55.jpg?alt=media&token=b945632d-104b-4d62-a568-ee3bf2d88d7e");
+
     height: 100%;
 }
 
 .img6 {
     width: 33.33%;
-    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-1.jpg?alt=media&token=f6d200a9-1991-45fa-a985-ef22142c8523");
+
     height: 100%;
+}
+
+
+
+
+@media(max-width:550px) {
+    .container-contact {
+        padding: 80px 10%;
+        flex-wrap: wrap;
+        gap: 48px;
+    }
 }
 
 /* PRODUCTS */
@@ -559,6 +467,10 @@ h2 {
     flex-grow: 1;
 }
 
+.about-text span {
+    text-decoration: underline;
+}
+
 .box-images {
     width: 400px;
     flex-grow: 1;
@@ -594,7 +506,7 @@ h2 {
 }
 
 .img-2 {
-    background-image: url("../assets/20201105_105139.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-1.jpg?alt=media&token=f6d200a9-1991-45fa-a985-ef22142c8523");
     width: 160px;
     flex-grow: 1;
     border-radius: 16px;
@@ -602,7 +514,7 @@ h2 {
 }
 
 .img-3 {
-    background-image: url("../assets/20201105_105139.jpg");
+    background-image: url("../assets/maquinas.jpg");
     width: 160px;
     flex-grow: 1;
     border-radius: 16px;
@@ -610,7 +522,7 @@ h2 {
 }
 
 .img-4 {
-    background-image: url("../assets/20201105_105139.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/270623TechnicsProduction-16.jpg?alt=media&token=229d2425-9d2c-4d92-9b2b-03e8d5b9ea6d");
     width: 160px;
     flex-grow: 1;
     border-radius: 16px;
@@ -618,7 +530,7 @@ h2 {
 }
 
 .img-5 {
-    background-image: url("../assets/20201105_105139.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/imgoffice.png?alt=media&token=ab846d4f-05be-4ad9-a133-ef48c5f3c507");
     width: 160px;
     flex-grow: 1;
     border-radius: 16px;
@@ -626,7 +538,7 @@ h2 {
 }
 
 .img-6 {
-    background-image: url("../assets/20201105_105139.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/technics-f656c.appspot.com/o/IMG-20221219-WA0006.jpg?alt=media&token=6bb60efe-4e5d-4c8d-a0dc-872d9edcb1f9");
     width: 160px;
     flex-grow: 1;
     border-radius: 16px;
@@ -672,16 +584,13 @@ h2 {
 
 
 @media(max-width: 790px) {
-    .contacto {
-        padding: 80px 10% 50px 10%;
-    }
+
 
     .contacto iframe {
         width: 100%;
     }
 
     .contact {
-        margin-top: 50px;
         padding: 0;
     }
 
@@ -694,7 +603,7 @@ h2 {
 
 @media(max-width: 600px) {
     .products-box {
-        padding: 80px 5%;
+        padding: 80px 5% 0 5%;
     }
 
     .company-img {
@@ -722,7 +631,8 @@ h2 {
     }
 
     .blog-box {
-        padding: 80px 5%;
+        padding: 160px 5% 80px;
+        flex-wrap: wrap;
     }
 
     .slider h2 {
@@ -731,5 +641,70 @@ h2 {
 
     .slider p {
         font-size: 20px;
+    }
+
+    .box-images {
+        padding-left: 0px;
+        margin-top: 48px;
+    }
+
+    .title {
+        font-size: 40px;
+
+    }
+
+    .overlay {
+        padding-right: 10%;
+    }
+
+    .slogan {
+        font-size: 24px;
+
+    }
+
+    .flex-products {
+        flex-wrap: wrap;
+        padding: 48px 0 0 0;
+    }
+
+    .info {
+        padding: 80px 32px;
+
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+
+    .box-p {
+        flex-wrap: wrap;
+    }
+
+    .about-container {
+        flex-wrap: wrap;
+
+    }
+
+    .about-container img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about-container div {
+        width: 100%;
+        margin-top: 48px;
+        padding: 0px;
+    }
+
+    .container-banner {
+        margin: 80px 0 0 0;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .back {
+        padding: 40px;
     }
 }

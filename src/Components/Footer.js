@@ -35,7 +35,7 @@ class Footer extends Component {
                         <h3>Contact</h3>
                         <br />
 
-                        <a href="tel:31403033781" aria-label="Mail" rel="noopener noreferrer">
+                        <a href="tel:31403033781" aria-label="tel" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon icon={faPhone} />  </span> +31 40 303 3781
                         </a>
 
@@ -49,7 +49,7 @@ class Footer extends Component {
                         <br />
                         <a href="https://goo.gl/maps/Br5a2k8B1uYvoMSN8" target="_blank" aria-label="Mail" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon icon={faMapMarked} />  </span>
-                            Technics Production B.V., T&P Campus <br />
+                            Tecned <br />
                             <span> <FontAwesomeIcon style={{ opacity: "0" }} icon={faMapMarked} />  </span> Urkhovenseweg 17<br />
                             <span> <FontAwesomeIcon style={{ opacity: "0" }} icon={faMapMarked} />  </span>5641 KA Eindhoven<br />
                             <span> <FontAwesomeIcon style={{ opacity: "0" }} icon={faMapMarked} />  </span> The Netherlands
@@ -63,7 +63,7 @@ class Footer extends Component {
                 <div className="copy">
 
 
-                    <p>Copyright 2020 © All Right Reserved</p>
+                    <p>Copyright 2023 © All Right Reserved</p>
                 </div>
             </section>
         );
