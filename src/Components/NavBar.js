@@ -84,7 +84,7 @@ const NavBar = () => {
                             }
                         >Home</p>
                     </Link>
-                    <Link to="/T&P-campus">
+                    <Link to="/tecned-campus">
                         <p style={
                             toggle
                                 ? {
@@ -134,10 +134,10 @@ const NavBar = () => {
                     <Link to="/">
                         <p>Home</p>
                     </Link>
-                    <Link to="/T&P-campus">
+                    <Link to="/tecned-campus">
                         <p >About</p>
                     </Link>
-                    <Link to="/T&P-campus">
+                    <Link to="/spike">
                         <p >Spike</p>
                     </Link>
                 </div>

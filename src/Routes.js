@@ -12,7 +12,7 @@ export const Router = () => (
         <Redirect exact path="/" to="/tecned" />
         <Route path="/tecned" component={HomePage} />
         <Route exact path="/spike" component={Spike} />
-        <Route path="/T&P-campus" component={About} />
+        <Route path="/tecned-campus" component={About} />
         <Route path="/products" component={Products} />
         <Route path="/blog" component={Construction} />
         <Route path="/contact" component={Contact} />

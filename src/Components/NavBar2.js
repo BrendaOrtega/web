@@ -45,7 +45,7 @@ const NavBar2 = () => {
 
                     >Home</p>
                 </Link>
-                <Link to="/T&P-campus">
+                <Link to="/tecned-campus">
                     <p >About</p>
                 </Link>
                 <div className="menuD">

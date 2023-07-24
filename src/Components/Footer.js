@@ -21,13 +21,13 @@ class Footer extends Component {
                         <br />
                         <h3>Tecned</h3>
                         <br />
-                        <Link to='/about'>
+                        <Link to='/T&P-campus'>
                             About
                         </Link>
                         <br />
                         <br />
-                        <Link to='/products'>
-                            Products
+                        <Link to='/spike'>
+                            Spike
                         </Link>
                     </div>
                     <div>
