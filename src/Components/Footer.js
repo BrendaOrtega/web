@@ -21,7 +21,7 @@ class Footer extends Component {
                         <br />
                         <h3>Tecned</h3>
                         <br />
-                        <Link to='/T&P-campus'>
+                        <Link to='/tecned-campus'>
                             About
                         </Link>
                         <br />
@@ -35,8 +35,8 @@ class Footer extends Component {
                         <h3>Contact</h3>
                         <br />
 
-                        <a href="tel:31403033781" aria-label="tel" rel="noopener noreferrer">
-                            <span> <FontAwesomeIcon icon={faPhone} />  </span> +31 40 303 3781
+                        <a href="tel:13474506860" aria-label="tel" rel="noopener noreferrer">
+                            <span> <FontAwesomeIcon icon={faPhone} />  </span> +13 474 506 860
                         </a>
 
                         <br />
@@ -49,7 +49,7 @@ class Footer extends Component {
                         <br />
                         <a href="https://goo.gl/maps/Br5a2k8B1uYvoMSN8" target="_blank" aria-label="Mail" rel="noopener noreferrer">
                             <span> <FontAwesomeIcon icon={faMapMarked} />  </span>
-                            Tecned <br />
+                            Headquarters location: <br />
                             <span> <FontAwesomeIcon style={{ opacity: "0" }} icon={faMapMarked} />  </span> Urkhovenseweg 17<br />
                             <span> <FontAwesomeIcon style={{ opacity: "0" }} icon={faMapMarked} />  </span>5641 KA Eindhoven<br />
                             <span> <FontAwesomeIcon style={{ opacity: "0" }} icon={faMapMarked} />  </span> The Netherlands

@@ -39,13 +39,13 @@ class Spike extends Component {
                     content="spiker, production, laboratory, machine development, history"
                 />
 
-                <title>Spike | Tecned</title>
+                <title>TDD | Tecned</title>
                 <NavBar />
                 <section >
                     <div className="spike">
                         <div className="cover">
                             <div>
-                                <h3>Spike</h3>
+                                <h3>TDD</h3>
                                 <p>The #1 Vehicle Stopping System around the world</p>
                                 <button className='btnGhost'>Visit Spike Website</button>
                             </div>
@@ -54,7 +54,7 @@ class Spike extends Component {
                     </div>
                     <section className='content'>
                         <Fade bottom>
-                            <h2 style={{ textAlign: 'center' }} className='header'>The exclusive capacities of the<span className='underline'> Spike </span></h2>
+                            <h2 style={{ textAlign: 'center' }} className='header'>The exclusive capacities of<span className='underline'> TDD </span></h2>
                             <div className='circles'>
                                 <div></div>
                                 <div></div>
@@ -64,20 +64,22 @@ class Spike extends Component {
                         <Fade bottom>
                             <div className='spike-container'>
                                 <div>
-                                    <p className='txt'>The Spike is the only autonomous
+                                    <p className='txt'>The TDD is the only autonomous
                                         device able to stop any vehicle from motorcycles to
                                         trailer trucks in seconds. Its unique capacities for
                                         pairing and non-stop operation have also granted it
                                         the preference of military organizations. It can be used
-                                        fixed or during mobile operations. The Spike
+                                        fixed or during mobile operations. The TDD
                                         is effectively stopping vehicles all across the globe.
                                         You can find these in every continent, excluding Antarctica.
                                     </p>
                                     <p className='txt'>
-                                        At Spike, we aim to secure the life of every law-enforcement official around the world, by finishing a vehicle pursuit in the safest possible way… even for those being chased. To achieve this, our team is carrying on constant research and development to improve every individual aspect regarding our technologies. We have set the bar high, and we are setting it higher by the day.
+                                        At TDD, we aim to secure the life of every law-enforcement official around the world, by finishing a vehicle pursuit in the safest possible way… even for those being chased. To achieve this, our team is carrying on constant research and development to improve every individual aspect regarding our technologies. We have set the bar high, and we are setting it higher by the day.
                                     </p>
                                     <br />  <br />
-                                    <button className='btn-primary'>Contact us</button>
+                                    <a href='#contact'>
+                                        <button className='btn-primary'>Contact us</button>
+                                    </a>
                                 </div>
                                 <img src={test} className='' />
                             </div>
@@ -178,7 +180,7 @@ class Spike extends Component {
                         </div>
                         <button className='btnBlue'>Download our flat sheet</button>
                     </section>
-                    <section style={{ backgroundColor: "rgba(231, 238, 249, .4)" }} className='container-contact'>
+                    <section id="contact" style={{ backgroundColor: "rgba(231, 238, 249, .4)" }} className='container-contact'>
                         <Fade bottom>
                             <div className='contact'>
                                 <h2 className='header'>Request a quote</h2>

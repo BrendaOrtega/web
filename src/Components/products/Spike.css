@@ -17,13 +17,14 @@
     padding-right: 30%;
     font-size: 32px;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .cover h3 {
     color: white;
     font-size: 48px;
     margin-bottom: 0px;
+    font-weight: 800;
 }
 
 .btnWhite {

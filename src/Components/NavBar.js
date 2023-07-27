@@ -110,7 +110,7 @@ const NavBar = () => {
                         <span>PPSS</span>
                         <span>SlashPRO</span> */}
                             <Link to="/spike">
-                                <p>Spike Stinger</p>
+                                <p>TDD</p>
                             </Link>
                             {/* <span>Bleeb GPS transmitter®</span>
                         <span>Catch systems</span>
@@ -138,7 +138,7 @@ const NavBar = () => {
                         <p >About</p>
                     </Link>
                     <Link to="/spike">
-                        <p >Spike</p>
+                        <p >TDD</p>
                     </Link>
                 </div>
                 <a href="tel:31403033781" aria-label="tel" rel="noopener noreferrer">
